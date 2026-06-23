@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Voxalink Support - Driving Excellence in Every Interaction</title>
+    <link rel="icon" type="image/png" href="Voxalink LOGO.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -14,7 +15,7 @@
         .container { width: 90%; max-width: 1100px; margin: 0 auto; }
 
         /* --- FADE IN ANIMATION --- */
-        .fade-in { opacity: 0; transform: translateY(20px); transition: all 1s ease-out; }
+        .fade-in { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
         .fade-in.visible { opacity: 1; transform: translateY(0); }
 
         /* --- HEADER & NAVBAR --- */
@@ -59,6 +60,23 @@
         .service-card h3 { margin-bottom: 15px; color: #0f172a; font-size: 20px; }
         .service-card p { color: #475569; font-size: 15px; }
 
+        /* --- GROWTH SECTION --- */
+        .growth-section { padding: 100px 0; background: #ffffff; }
+        .growth-container { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 60px; }
+        .growth-text { flex: 1; min-width: 350px; }
+        .growth-text h4 { color: #005b96; font-size: 14px; text-transform: uppercase; margin-bottom: 10px; font-weight: 700; }
+        .growth-text h2 { font-size: 42px; line-height: 1.2; margin-bottom: 20px; color: #1e293b; }
+        .growth-text p { color: #475569; margin-bottom: 25px; }
+        .growth-points { list-style: none; }
+        .growth-points li { margin-bottom: 12px; color: #1e293b; font-weight: 500; display: flex; align-items: center; }
+        .growth-points li i { color: #005b96; margin-right: 12px; }
+        .growth-grid { flex: 1; min-width: 350px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .growth-card { padding: 30px; border-radius: 12px; color: #ffffff; }
+        .growth-card h3 { font-size: 32px; font-weight: 700; margin-bottom: 5px; }
+        .growth-card p { font-size: 14px; opacity: 0.9; }
+        .bg-blue-light { background-color: #005b96; }
+        .bg-dark { background-color: #334155; }
+
         /* --- FOOTER --- */
         footer { background: #0f172a; color: #94a3b8; padding: 80px 0 40px 0; }
         .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; margin-bottom: 60px; }
@@ -74,6 +92,7 @@
             .nav-desktop { display: none; }
             .hamburger { display: flex; }
             .hero-content { text-align: center; margin: 0 auto; }
+            .growth-container { flex-direction: column; }
         }
     </style>
 </head>
@@ -87,6 +106,7 @@
                 <a href="#philosophy" class="nav-link">Our Ethos</a>
                 <a href="#services" class="nav-link">Solutions</a>
                 <a href="#framework" class="nav-link">Framework</a>
+                <a href="#growth" class="nav-link">Growth</a>
             </nav>
             <button class="hamburger" id="hamburger-btn"><span></span><span></span><span></span></button>
             <nav class="nav-menu sidebar" id="nav-menu">
@@ -94,6 +114,7 @@
                 <a href="#philosophy" class="nav-link">Our Ethos</a>
                 <a href="#services" class="nav-link">Solutions</a>
                 <a href="#framework" class="nav-link">Framework</a>
+                <a href="#growth" class="nav-link">Growth</a>
             </nav>
         </div>
     </header>
@@ -106,7 +127,7 @@
             <div class="hero-content fade-in">
                 <h1>Driving Excellence in Every Interaction.</h1>
                 <p>We orchestrate meaningful connections between your brand and your audience. By blending strategic precision with a seamless human touch, we ensure your business speaks with clarity, consistency, and impact.</p>
-                <a href="#services" class="btn-primary-hero">Explore Our Methodology &rarr;</a>
+                <a href="#services" class="btn-primary-hero">Explore Our Methodology →</a>
             </div>
         </div>
     </section>
@@ -168,6 +189,82 @@
         </div>
     </section>
 
+    <section id="growth" class="fade-in growth-section">
+        <div class="container growth-container">
+            <div class="growth-text">
+                <h4>Why Voxalink Support</h4>
+                <h2>Your Growth Is Our Mission</h2>
+                <p>We're not just another company. We're a dedicated growth partner that understands the market while thinking globally.</p>
+                <ul class="growth-points">
+                    <li><i class="far fa-check-circle"></i> Data-driven decisions backed by analytics</li>
+                    <li><i class="far fa-check-circle"></i> Local market expertise with global standards</li>
+                    <li><i class="far fa-check-circle"></i> Dedicated team assigned to your account</li>
+                    <li><i class="far fa-check-circle"></i> Regular strategy reviews and reporting</li>
+                </ul>
+            </div>
+            <div class="growth-grid">
+                <div class="growth-card bg-blue-light">
+                    <h3>100+</h3>
+                    <p>Professional Experts</p>
+                </div>
+                <div class="growth-card bg-dark">
+                    <h3>900+</h3>
+                    <p>Team Members</p>
+                </div>
+                <div class="growth-card bg-dark">
+                    <h3>24/7</h3>
+                    <p>Support</p>
+                </div>
+                <div class="growth-card bg-blue-light">
+                    <h3>98%</h3>
+                    <p>Client Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery-location" class="fade-in" style="padding: 100px 0; background: #f8fafc;">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 10px;">Our Environment & Presence</h2>
+            <p class="section-subtitle" style="text-align: center; margin-bottom: 40px; color: #64748b;">Take a look inside our workspace and find us easily.</p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px;">
+                <!-- Kolom Gambar -->
+                <div>
+                    <div style="text-align: center; margin-bottom: 20px;">
+                        <div style="display: inline-block; padding: 10px 25px; border: 2px solid #005b96; border-radius: 50px; background-color: #fff;">
+                            <p style="color: #005b96; font-weight: 700; margin: 0; font-size: 16px;">
+                                <i class="fas fa-map-marker-alt" style="margin-right: 8px;"></i> Ajman Free Zone - C1 Building
+                            </p>
+                        </div>
+                    </div>
+                    <div style="border-radius: 12px; overflow: hidden; height: 350px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); position: relative;">
+                        <img src="Location 1.jpg" alt="Location 1" class="slide-img" style="position: absolute; width: 100%; height: 100%; object-fit: cover; animation: fadeSlide 10s infinite;">
+                        <img src="Location 2.jpg" alt="Location 2" class="slide-img" style="position: absolute; width: 100%; height: 100%; object-fit: cover; animation: fadeSlide 10s infinite; animation-delay: 5s;">
+                    </div>
+                </div>
+                
+                <!-- Kolom Peta -->
+                <div>
+                    <div style="text-align: center; margin-bottom: 20px;">
+                        <div style="display: inline-block; padding: 10px 25px; border: 2px solid #005b96; border-radius: 50px; background-color: #fff;">
+                            <p style="color: #005b96; font-weight: 700; margin: 0; font-size: 16px;">
+                                <i class="fas fa-map" style="margin-right: 8px;"></i> Location, Maps
+                            </p>
+                        </div>
+                    </div>
+                    <div style="border-radius: 12px; overflow: hidden; height: 350px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.5728178503255!2d55.45008707596521!3d25.41910612267577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5784a7c97153%3A0x2f7b6f7ff376bcb3!2sAjman%20Free%20Zone!5e0!3m2!1sen!2sae!4v1782207686400!5m2!1sen!2sae" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            @keyframes fadeSlide { 0%, 40% { opacity: 1; } 50%, 90% { opacity: 0; } 100% { opacity: 1; } }
+            @media (max-width: 768px) { #gallery-location .container { width: 95%; } }
+        </style>
+    </section>
+
     <footer>
         <div class="container fade-in">
             <div class="footer-grid">
@@ -178,6 +275,7 @@
                         <li><a href="#philosophy">Our Ethos</a></li>
                         <li><a href="#services">Solutions</a></li>
                         <li><a href="#framework">Framework</a></li>
+                        <li><a href="#growth">Growth</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -188,17 +286,14 @@
                 </div>
                 <div class="footer-col">
                     <h4>Voxalink</h4>
-                    <p>We are a trusted support partner committed to delivering seamless, secure, and efficient solutions. Founded with a clear purpose to solve complex business challenges worldwide.</p>
+                    <p>We are a trusted support partner committed to delivering seamless, secure, and efficient solutions.</p>
                 </div>
             </div>
-            <div class="copyright">
-                &copy; 2026 Voxalink Support. All rights reserved.
-            </div>
+            <div class="copyright">© 2026 Voxalink Support. All rights reserved.</div>
         </div>
     </footer>
 
     <script>        
-        // Hamburger & Scroll Active Link
         const hamburger = document.getElementById('hamburger-btn');
         const navMenu = document.getElementById('nav-menu');
         hamburger.addEventListener('click', () => { navMenu.classList.toggle('active'); });
@@ -209,7 +304,7 @@
             let current = "";
             sections.forEach((section) => {
                 const sectionTop = section.offsetTop;
-                if (window.pageYOffset >= sectionTop - 100) { current = section.getAttribute("id"); }
+                if (window.pageYOffset >= sectionTop - 150) { current = section.getAttribute("id"); }
             });
             navLinks.forEach((a) => {
                 a.classList.remove("active");
@@ -217,13 +312,13 @@
             });
         });
 
-        // FADE IN OBSERVER
         const observerOptions = { threshold: 0.1 };
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('visible');
-                    // Kita tidak melakukan unobserve agar bisa animasi ulang jika user scroll balik ke atas
+                } else {
+                    entry.target.classList.remove('visible'); 
                 }
             });
         }, observerOptions);
